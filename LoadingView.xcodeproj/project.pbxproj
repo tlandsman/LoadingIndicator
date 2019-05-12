@@ -14,6 +14,10 @@
 		EE12086C2287866D00F7FC59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE12086A2287866D00F7FC59 /* LaunchScreen.storyboard */; };
 		EE1208772287866D00F7FC59 /* LoadingViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1208762287866D00F7FC59 /* LoadingViewTests.swift */; };
 		EE1208822287866D00F7FC59 /* LoadingViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1208812287866D00F7FC59 /* LoadingViewUITests.swift */; };
+		EE120890228786AB00F7FC59 /* LoadingIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE12088F228786AB00F7FC59 /* LoadingIndicatorView.swift */; };
+		EE3D0C5D2287A82D00D6C0CB /* LoadingIndicator2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3D0C5C2287A82D00D6C0CB /* LoadingIndicator2.swift */; };
+		EE3D0C5F22888EFF00D6C0CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE3D0C5E22888EFF00D6C0CB /* Images.xcassets */; };
+		EE3D0C6122888F7400D6C0CB /* LoadingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3D0C6022888F7400D6C0CB /* LoadingImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		EE12087D2287866D00F7FC59 /* LoadingViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoadingViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE1208812287866D00F7FC59 /* LoadingViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewUITests.swift; sourceTree = "<group>"; };
 		EE1208832287866D00F7FC59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE12088F228786AB00F7FC59 /* LoadingIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicatorView.swift; sourceTree = "<group>"; };
+		EE3D0C5C2287A82D00D6C0CB /* LoadingIndicator2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicator2.swift; sourceTree = "<group>"; };
+		EE3D0C5E22888EFF00D6C0CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EE3D0C6022888F7400D6C0CB /* LoadingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +107,14 @@
 			children = (
 				EE1208612287866C00F7FC59 /* AppDelegate.swift */,
 				EE1208632287866C00F7FC59 /* ViewController.swift */,
+				EE3D0C5C2287A82D00D6C0CB /* LoadingIndicator2.swift */,
+				EE12088F228786AB00F7FC59 /* LoadingIndicatorView.swift */,
 				EE1208652287866C00F7FC59 /* Main.storyboard */,
 				EE1208682287866D00F7FC59 /* Assets.xcassets */,
 				EE12086A2287866D00F7FC59 /* LaunchScreen.storyboard */,
 				EE12086D2287866D00F7FC59 /* Info.plist */,
+				EE3D0C5E22888EFF00D6C0CB /* Images.xcassets */,
+				EE3D0C6022888F7400D6C0CB /* LoadingImageView.swift */,
 			);
 			path = LoadingView;
 			sourceTree = "<group>";
@@ -230,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE12086C2287866D00F7FC59 /* LaunchScreen.storyboard in Resources */,
+				EE3D0C5F22888EFF00D6C0CB /* Images.xcassets in Resources */,
 				EE1208692287866D00F7FC59 /* Assets.xcassets in Resources */,
 				EE1208672287866C00F7FC59 /* Main.storyboard in Resources */,
 			);
@@ -256,8 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE3D0C6122888F7400D6C0CB /* LoadingImageView.swift in Sources */,
+				EE120890228786AB00F7FC59 /* LoadingIndicatorView.swift in Sources */,
 				EE1208642287866C00F7FC59 /* ViewController.swift in Sources */,
 				EE1208622287866C00F7FC59 /* AppDelegate.swift in Sources */,
+				EE3D0C5D2287A82D00D6C0CB /* LoadingIndicator2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
